@@ -37,7 +37,7 @@ function OptionGroup({
   options: string[];
   value: string;
   onChange: (next: string) => void;
-  error?: string;
+  error?: string | undefined;
   required?: boolean;
 }) {
   const errorId = useId();
