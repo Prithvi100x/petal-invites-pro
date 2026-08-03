@@ -14,7 +14,45 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      rsvps: {
+        Row: {
+          attending: string
+          created_at: string
+          full_name: string
+          guest_count: number
+          guest_type: string | null
+          id: string
+          jaimala_prediction: string
+          message: string | null
+          team: string
+          wedding_mood: string
+        }
+        Insert: {
+          attending: string
+          created_at?: string
+          full_name: string
+          guest_count?: number
+          guest_type?: string | null
+          id?: string
+          jaimala_prediction: string
+          message?: string | null
+          team: string
+          wedding_mood: string
+        }
+        Update: {
+          attending?: string
+          created_at?: string
+          full_name?: string
+          guest_count?: number
+          guest_type?: string | null
+          id?: string
+          jaimala_prediction?: string
+          message?: string | null
+          team?: string
+          wedding_mood?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
