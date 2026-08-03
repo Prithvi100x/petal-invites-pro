@@ -19,7 +19,7 @@ export function Hero() {
         width={640}
         height={1280}
         aria-hidden="true"
-        className="pointer-events-none absolute top-0 left-[-14%] h-[60%] w-auto opacity-70 sm:left-[-4%] lg:h-[78%]"
+        className="pointer-events-none absolute top-0 left-[-26%] h-[48%] w-auto opacity-45 sm:left-[-10%] lg:h-[66%]"
       />
       <img
         src={floralRight}
@@ -27,7 +27,7 @@ export function Hero() {
         width={640}
         height={1280}
         aria-hidden="true"
-        className="pointer-events-none absolute right-[-16%] bottom-[6%] h-[52%] w-auto opacity-70 sm:right-[-4%] lg:h-[70%]"
+        className="pointer-events-none absolute right-[-28%] bottom-[10%] h-[44%] w-auto opacity-45 sm:right-[-10%] lg:h-[62%]"
       />
       <Petals />
 
