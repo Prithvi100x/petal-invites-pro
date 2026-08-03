@@ -79,6 +79,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { title: "Hppay wedding Day" },
+      { property: "og:title", content: "Hppay wedding Day" },
+      { name: "twitter:title", content: "Hppay wedding Day" },
+      { name: "description", content: "A luxury digital Indian wedding invitation website with editable content and elegant design." },
+      { property: "og:description", content: "A luxury digital Indian wedding invitation website with editable content and elegant design." },
+      { name: "twitter:description", content: "A luxury digital Indian wedding invitation website with editable content and elegant design." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/817f8a8e-b765-458e-a750-115ed74c8256/id-preview-21c840da--e1d66d25-6898-4716-b820-0d2685dd3295.lovable.app-1785758007051.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/817f8a8e-b765-458e-a750-115ed74c8256/id-preview-21c840da--e1d66d25-6898-4716-b820-0d2685dd3295.lovable.app-1785758007051.png" },
     ],
     links: [
       {
