@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useSmoothScroll } from "@/hooks/useSmoothScroll";
 import { Cover } from "./Cover";
 import { Events } from "./Events";
 import { Footer } from "./Footer";
@@ -11,6 +12,7 @@ type Stage = "cover" | "opening" | "blessing" | "invitation";
 
 export function Invitation() {
   const [stage, setStage] = useState<Stage>("cover");
+  useSmoothScroll(stage === "invitation");
 
   useEffect(() => {
     if (stage === "cover" || stage === "invitation") return;
